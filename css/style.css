@@ -1,0 +1,909 @@
+body{
+   font-size: 16px;
+   font-family: "Lato", "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", "Arial",sans-serif; 
+   -webkit-font-smoothing: antialiased;
+   font-smoothing:antialiased; 
+}
+
+h1,h2,h3,h4,h5,h6{
+	margin: 0; 
+	font-weight: 549; 
+	font-family:"Futura", sans-serif; 
+}
+
+h1{
+	font-size: 70px; 
+}
+
+h2{
+	font-size: 42px; 
+}
+
+h3{
+	font-size: 30px; 
+}
+h4{
+	font-size: 24px; 
+}
+
+h5{
+	font-size: 20px; 
+}
+
+h6{
+	font-size: 14px; 
+}
+
+p{
+	font-size: 15.7px; 
+	color: #6a6c6d; 
+	line-height: 2.0;
+}
+
+img {
+	max-width: 100%;
+}
+
+input:focus,
+select:focus,
+button:focus,
+textarea:focus {
+	outline: none; 
+}
+
+a{
+	transition: 0.3s linear 
+}
+a, u {
+    text-decoration: none;
+}
+a:hover,
+a:focus{
+	color: #40bf80 !important;
+	text-decoration: none; 
+	outline: none; 
+	cursor: pointer;
+}
+
+ul, ol{
+	padding: 0;
+}
+.border{
+	background: #40bf80;
+	height: 4px !important;
+	width: 40px;
+	height: 3px;
+	margin: 10px 0px;
+}
+
+.logo{
+    width: 90px;
+    height: 90px;
+}
+
+.navbar-brand{
+	margin-top: -50px; 
+	margin-bottom: -50px;
+}
+
+.navbar-link{
+	 color:#40bf80 !important;
+}
+
+.dropdown-menu a:hover{
+ 	margin-left: 15px !important; 
+	background-color: transparent !important;
+}
+/* Adding Drop Dpown on Mouse Hover */
+.navbar .nav-item .dropdown-menu{
+	display: none; 
+}
+.navbar .nav-item:hover .nav-link{ 
+	color: #40bf80;  
+}
+.navbar .nav-item:hover .dropdown-menu{ 
+	display: block; 
+}
+.navbar .nav-item .dropdown-menu{ 
+	margin-top:0; 
+}
+
+
+.lr a{
+ 	display: inline-block; /* Displays button inline with each other */
+ }
+
+.lr-btn{
+	border-radius: 45px;
+	max-width: 100%;
+	padding: 8px;
+	margin-top: -12px;
+	margin-bottom: -12px;
+	color: #fff;
+	font-size: 16px;
+
+	background: #40bf80; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, #40bf80 , #339966); /* For Safari 5.1 to 6.0 */
+    background: -0-linear-gradient(right, #40bf80, #339966); /* For opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #40bf80, #339966); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #40bf80, #339966); /* Standard Syntax */
+
+    -webkit-box-shadow: 0 0 10px 0px rgba(64, 191, 128, 0.9);
+              box-shadow: 0 0 10px 0px rgba(64, 191, 128, 0.9);
+
+    transition: 0.5s linear;
+
+}
+
+.bannerSection .bannerImage{
+	height: 650px !important;
+	position: relative;
+	line-height: 500px;
+	text-align: center;
+	font-size: 60px;
+	color: white;
+	font-family: calibri;
+
+}
+
+.marketingSection{
+	padding-top: 470px;
+	position: relative;
+}
+
+.marketingSection .border{
+	background: : #40bf80;
+	height: 4px !important;
+	width: 40px;
+	height: 3px;
+	margin: 10px 0px;
+}
+
+.marketingRow .fa{
+	width: 100px;
+	height: 97px;
+	color: #40bf80;
+	border: 2px solid #40bf80;
+	padding: 20px;
+	border-radius: 40px;
+	transition: 0.2s linear;
+}
+
+.marketingRow .fa:hover{
+	border-radius: 48%;
+}
+
+.marketingSection p{
+	max-width: 47%;
+	text-align: center;
+}
+
+.marketingRow{
+	max-width: 94% !important;
+}
+
+
+.achievementSpotRow{
+	max-width: 86%;
+}
+
+.achievementSpot{
+	padding: 40px 0px 120px 0px;
+}
+
+.achievementSpot .border{
+	background: #40bf80;
+	height: 4px !important;
+	width: 40px;
+	height: 3px;
+	margin: 10px 0px;
+}
+
+.achievementSpot img{
+	box-shadow: 17px 17px #dfe3e8;
+}
+
+.achievementSpot span{
+	color: #40bf80;
+}
+
+.achievementSpot p,h5{
+	text-align: left;
+}
+.memberSection{
+	margin-top: -40px;
+	color: #fff;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-attachment: fixed;
+}
+
+.innerSection{
+	background: rgb(64, 191, 128, .9);
+	padding: 100px;
+}
+.memberSection h4{
+	color: #fff;
+	font-weight: bold;
+	font-size: 50px !important;
+	text-align: center !important;
+}
+.memberSection h5{
+	color: #fff;
+	text-align:center !important;
+	font-size: 20px !important;
+}
+.memberRow{
+	max-width: 94%;
+	white-space: normal;
+}
+.memberSection .border{
+	background:#fff;
+	height: 4px !important;
+	width: 40px;
+	height: 3px;
+	margin: 10px 0px;
+}
+
+.newsSection .border{
+	background: #40bf80;
+	height: 4px !important;
+	width: 40px;
+	height: 3px;
+	margin: 10px 0px;
+}
+
+.newsSection{
+	padding-top: 120px;
+}
+.newsSection img{
+	height: 220px;
+	width: 100%;
+}
+.newsSection p{
+	text-align: left !important;
+	font-size: 14px;
+}
+
+.newsSectionRow{
+	max-width: 90% !important;
+}
+
+.card-header{
+	padding: 0px 0px;
+	margin-top: 0;
+	background-color: rgba(0,0,0,0.03);
+	border-bottom: 1px solid rgba(0,0,0,0.125)
+}
+.card-header:hover{
+	opacity: .5;
+	cursor: pointer;
+}
+.card{
+	transition: 0.5s linear:;
+}
+.card:hover{
+	-webkit-box-shadow: 0 0 10px 0px rgba(64,191,128,0.9);
+					box-shadow: 0 0 10px 0px rgba(64,191,128,0.9);
+
+					cursor: pointer;
+}
+.site-btn{
+	border-radius: 40px;
+	margin: 40px;
+	width: 14%;
+	padding: 10px;
+	color: #ffff;
+	font-family: calibri;
+	 background:#40bf80;/*For browsers that do not support gradients*/
+   background:-webkit-linear-gradient(left,#40bf80,#339966);/*For Safari 5.1 to 6.0*/ 
+   background: -o-linear-gradient(right,#40bf80,#339966);/* For Opera 11.1 to 12.0*/
+   background:-moz-linear-gradient(right,#40bf80,#339966);/*For Firefox 3.6 to 15*/
+   background:linear-gradient(to right,#40bf80,#339966);/*Standard syntax*/
+   transition: 0.5s linear;
+}
+
+.site-btn:hover{
+	color: #fff;
+	-webkit-box-shadow: 0 0 10px 0px rgba(64, 191, 128, 0.9);
+					box-shadow: 0 0 10px 0px rgba(64,191,128,0.9);
+}
+
+.footer h5, .footer, .footer p{
+	color: #fff;
+}
+
+.footerContent{
+	padding: 30px;
+}
+
+.footerRow{
+	max-width: 94% !important;
+}
+
+.footerContent ul li, h5, p{
+	list-style-type: none;
+	text-align: left;
+}
+
+.footerCopyright{
+	padding: 20px;
+	text-align: center;
+}
+
+.footerRow li a{
+	color: #fff !important;
+}
+
+.footerRow li a:hover{
+	color: #fff !important;
+	margin-left: 7px !important;
+}
+
+.socialIcons li{
+	display: inline-block !important;
+	float: left;
+
+	margin-right: 7px;
+	width: 49px;
+	height: 49px;
+	font-size: 27px;
+
+	border: 1px solid #fff;
+	border-radius: 50%;
+}
+
+.socialIcons li a i{
+	position: relative;
+	margin: 10px 10px;
+	color: #fff;
+}
+
+.subscribeField{
+	background-color: transparent;
+	padding: 8px !important;
+	border: 0.5px solid #888;
+}
+
+.quickLinks{
+	list-style: none;
+}
+
+.form-btn{
+	border-radius: 40px;
+	background-color: #40bf80;
+	min-width: 120px;
+	color: #fff;
+	font-family: calibri;
+	background:#40bf80;/*For Bowsers that do not spport gradients*/
+	background: -webkit-linear-gradient(left,#40bf80,#339966); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(right,#40bf80,#339966);/* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(right,#40bf80,#339966);/* For Firefox 3.6 to 15 */
+	background: linear-gradient(to right,#40bf80,#339966);/* Standard Syntax */
+	transition: 0.5s linear;
+}
+.form-btn:hover{
+	color: #fff;
+	-webkit-box-shadow:0 0 10px 0px rgba(64, 191, 128, 0.9);
+						box-shadow: 0 0 10px 0px rgba(64, 191, 128 , 0.9)
+}
+
+
+
+/*ABOUT US PAGE STYLING*/
+.bannerSection {
+	height: 300px;
+	position: relative;
+	margin-top: 3px;
+}
+
+.bannerPageSection{
+	background-size: 100% 100%;
+}
+.bannerContent{
+	color: #fff !important;
+}
+.innerBannerPageSection{
+	background: rgb(26,26,26,0.9);
+	background-size: 100% 100%;
+	height: 300px;
+}
+.bannerContent{
+	position: relative;
+	top: 100px;
+	left: 100px;
+}
+.bannerContent h2,h6{
+	color: #fff;
+}
+
+.contentSection{
+	padding: 100px 0px;
+}
+.contentSectionRow{
+	max-width: 90%;
+}
+.contentSectionRow p, h2, h6{
+	text-align: left;
+}
+.contentSectionRow h6{
+	color: grey;
+}
+.contentSectionRow img{
+	max-height: 85%;
+	margin-top: 8px;
+	box-shadow: 11px 11px #dfe3e8;
+}
+.contentSection .border {
+	margin-bottom: 10px;
+		background-color: #40bf80;
+	height: 4px !important;
+	margin-left: 20px !important;
+	width: 40px;
+}
+
+.valueSection .border{
+	background:#40bf80;
+	height: 4px !important;
+	width: 40px;
+	height: 3px;
+	margin: 10px 0px;
+}
+
+.valueSectionRow{
+	max-width: 90%;
+}
+.valueSectionRow .fa{
+	width: 100px;
+	height: 97px;
+	color: #40bf80;
+	border:2px solid #40bf80;
+	border-radius: 40px;
+	padding: 20px;
+	transition: 0.2s linear;
+}
+.valueSectionRow .fa:hover{
+	border-radius: 48%;
+}
+.valueSection{
+	padding:80px 0px;
+}
+.valueSectionRow{
+	padding-top: 70px;
+}
+
+.valueSectionRow p{
+	text-align: center;
+}
+
+
+
+
+/*Staff Page Styling*/
+.staffSection{
+	padding: 70px 0px;
+}
+
+.staffSectionRow{
+	max-width: 80%;
+}
+.staffSectionRow h5{
+	color: black;
+}
+.staffSectionRow p, h6, span{
+	text-align: left;
+	color: gray;
+}
+
+.staffSectionRow img{
+	border-radius: 100% !important;
+	transition: 0.7s linear;
+}
+
+.staffSectionRow img:hover{
+	-webkit-box-shadow: 0 0 10px 0px rgba(153, 153, 153, 0.9);
+	box-shadow: 0 0 10px 0px rgba(153, 153, 153, 0.9);
+}
+
+
+/*ICT Page CSS*/
+.departmentSpotRow{
+	max-width: 86%;
+}
+
+.departmentSpot{
+	padding: 40px 0px 120px 0px;
+}
+
+.departmentSpot .border{
+	background: #40bf80;
+	height: 4px !important;
+	width: 40px;
+	height: 3px;
+	margin: 10px 0px 70px 0px;
+}
+
+.departmentSpot img{
+	box-shadow: 17px 17px #dfe3e8;
+}
+
+.departmentSpot p,h5{
+	text-align: left;
+}
+
+
+/*Clubs Page Styling*/
+
+.clubSpotRow{
+	max-width: 86%;
+}
+
+.clubSpot{
+	padding: 40px 0px 120px 0px;
+}
+
+.clubSpot .border{
+	background: #40bf80;
+	height: 4px !important;
+	width: 40px;
+	height: 3px;
+	margin: 10px 0px 70px 0px;
+}
+.clubSpot img{
+	box-shadow: 17px 17px #dfe3e8;
+}
+
+.clubSpot img{
+	box-shadow: 17px 17px #dfe3e8;
+}
+.clubSpot p, h5{
+	text-align: left;
+}
+
+
+
+
+/*Gallery Page Styling*/
+.galleryBannerSection{
+	max-width: 76%;
+	padding: 140px;
+	text-align: center;
+}
+
+.galleryBannerSection h3{
+	text-align: center;
+}
+.gallerySpotSection{
+	padding: 30px;
+}
+
+.gallerySpotSection img{
+	min-height: 280px;
+}
+
+.gallerySpotSection h3{
+	max-width: 70%;
+	padding: 30px;
+}
+
+.gallerySpotSection .col-md-4{
+	padding: 14px;
+	transition: 0.7s linear;
+}
+
+.gallerySpotSection .col-md-4 h4{
+	position: absolute;
+	top: 50%;
+	left: 38%;
+	color: #fff;
+	visibility: hidden;
+}
+
+.gallerySpotSection .col-md-4:hover, .gallerySpotSection .col-md-4:hover h4{
+	opacity: .7;
+	cursor: zoom-in;
+	visibility: visible;
+	-webkit-box-shadow: 0 0 10px 0px rgba(153, 153, 153, 0.9);
+	box-shadow: 0 0 10px 0px rgba(153, 153, 153, 0.9);
+}
+
+.displaySectionBody{
+	padding: 0px !important;
+}
+
+.displaySectionModal{
+	position: fixed;
+	top: 7%;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 1050;
+	display: none;
+	overflow: hidden;
+	-webkit-overflow-scrolling: touch;
+	outline: 0;
+}
+
+.closeDisplaySection: hover{
+	cursor: zoom-out;
+}
+
+
+/*News Page Styling*/
+
+.newsSection .border{
+	background: #40bf80;
+	height: 4px !important;
+	width: 40px;
+	height: 3px;
+	margin: 10px 0px;
+
+}
+
+.newsSection{
+	padding-top: 120px;
+}
+
+.newsSection img{
+	height: 220px;
+	width: 100%;
+}
+
+.newsSection p{
+	text-align: left!important;
+	font-size: 14px;
+}
+
+.newsSectionRow{
+	max-width: 90% !important;
+}
+
+.card-header{
+	padding: 0px 0px;
+	margin-bottom: 0;
+	background-color: rgba(0, 0, 0, 0.03);
+	border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.card-header:hover{
+	opacity: .5;
+	cursor: pointer;
+}
+
+.card{
+	transition: 0.5s linear;
+}
+
+.card:hover{
+	-webkit-box-shadow: 0 0 10px 0px rgba(64, 191, 128, 0.9);
+	box-shadow: 0 0 10px 0px rgba(64, 191, 128, 0.9);
+	cursor: pointer;
+}
+
+.newsSpot .border{
+	background: #40bf80;
+	height: 4px !important;
+	width: 40px;
+	height: 3px;
+	margin: 10px 0px 70px 0px;
+}
+
+.newsSpotRow{
+	max-width: 85%;
+}
+
+.newsSpotRow .card, .cardd{
+	margin: 50px 0px;
+}
+
+.newsSpotRow .cardd .row{
+	margin: 30px 0px;
+}
+
+.newsSpotRow .cardd .row img{
+	min-height: 70px;
+}
+
+.newsSpotRow .cardd h4{
+	color: #0c2e60 !important;
+	font-weight: bold;
+	font-size: 16px !important;
+}
+
+.newsSpotRow .cardd .row p{
+	padding-top: 20px;
+	color: gray;
+	font-size: 13px;
+	transition: 0.7s linear;
+}
+
+.newsSpotRow .cardd .row p:hover{
+	color:#40bf80;
+	cursor: pointer;
+}
+
+.newsSpotRow .card-body h4 p{
+	padding: 40px 0px;
+}
+
+.newsSpotRow .card-headerr img{
+	width:100%;
+}
+
+.newsSpotRow .singleItem{
+	border-color: transparent !important;
+}
+
+.newsSpotRow .singleItem p{
+	padding-top: 10px;
+	font-size: 14px;
+}
+
+.newsSpotRow .singleItem:hover{
+	cursor: normal !important;
+	-webkit-box-shadow: 0 0 10px 0px rgba(255, 255, 255, 0.9);
+	box-shadow: 0 0 10px 0px rgba(255, 255, 255, 0.9);
+}
+
+.dateCard{
+
+	padding: 10px;
+	margin-top: -67px;
+	z-index: 3;
+	max-width: 100px;
+	border-radius: 4px;
+	background: #40bf80; /*For browsers that do not support gradients */
+	background: -webkit-linear-gradient(left, #40bf80, #339966); /* For safari 5.1 to 6.0 */
+	background: -0-linear-gradient(right, #40bf80, #339966); /* For opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #40bf80, #339966); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #40bf80, #339966); /* Standard Syntax */
+
+}
+
+.dateCard h3{
+	padding: auto;
+	color: #fff;
+}
+
+
+/*Contact Us Page styling*/
+
+.contactSpot .border{
+	background:#40bf80;
+	height: 4px !important;
+	width: 40px;
+	height: 3px;
+	margin: 10px 0px 70px 0px;
+}
+
+.contactSpotRow{
+	max-width: 90%;
+	padding-top: 70px;
+}
+
+.contactSpotRow .formItem .contactSpotRow .contactItem{
+	border-color: transparent;
+	-webkit-box-shadow: 0 0 10px 0px rgba(255, 255, 255, 0.9);
+	box-shadow: 0 0 10px 0px rgba(255, 255, 255, 0.9);
+	transition: 0.7s linear;
+
+}
+
+.contactSpotRow .contactItem h4{
+	color: #0c2e60;
+	font-weight: bold;
+	font-size: 16px !important;
+}
+
+.contactSpotRow .contactItem .row p{
+	padding-top: 3px;
+	color: gray;
+	font-size: 15px;
+	transition: 0.7s linear;
+}
+
+.contactSpotRow .contactItem .row .fas{
+	padding-top: 3px;
+	color: gray;
+	transition: 0.7s linear;
+}
+
+.contactSpotRow .contactItem .row p:hover{
+	color: #40bf80;
+	cursor: pointer;
+}
+
+.contactSpotRow .contactItem .card-body h4 p{
+	padding: 70px 0px;
+}
+
+.navShadow{
+	-webkit-box-shadow: 0 0 10px 0px rgba(64, 191, 128, 0.9);
+	box-shadow: 0 0 10px 0px rgba(64, 191, 128, 0.9);
+}
+
+/*Mobile Styles*/
+@media screen and (max-width: 4px){
+	.membersRow .col-md-4, .marketingRow .col-md-4, .footerRow .col-md-4, .valueSectionRow .col-md-4, .departmentRow .departmentSpotRow .col-md-7, .clubSpotRow .col-md-5, .clubSpotRow .col-md-7{
+		padding-top: 40px !important;
+	}
+
+	.site-btn{
+		width: 79%;
+	}
+
+	.bannerContent{
+		position: relative;
+		top:100%;
+		left:20px;
+	}
+
+	.gallerySpotSection h3{
+		max-width: 100%;
+		padding: 30px;
+	}
+.icons-bar{
+	z-index: 100;
+	position: fixed;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+.icons-social{
+	z-index: 100;
+	position: fixed;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+.icons-bar a{
+	display: block;
+	text-align: center;
+	padding: 6px 6px;
+	transition: all 0.3% ease;
+	color: white;
+	font-size: 11px;
+	margin-bottom: 6px;
+}
+.icons-bar a{
+	display: block;
+	text-align: center;
+	padding: 14px 12px;
+	transition: all 0.3% ease;
+	color: white;
+	font-size: 12px;
+	margin-bottom: 5px;
+}
+.icons-bar a:hover{
+	background-color: #62b319;
+}
+.icons-bar a{
+	background-color: rgba(248, 112, 9, 0.85);
+}
+.icons-social a:hover {
+background-color: #62b319;	
+}
+
+/* Tablet Landscape */
+@media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}  
+}
+
+/* Tabled Portrait */
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
+}
+
+.bgimg{
+	background: center top no-repeat fixed;
+	color: white;
+	background-size: auto;
+	background-size: cover;
+	padding: 30px 0px 30px 0px;
+	position: relative; color: white;
+}
+/* End of Custom Styles*/
